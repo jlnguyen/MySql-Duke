@@ -1,0 +1,87 @@
+
+## Question 1
+Relational databases are based on which mathematical theory or field?  
+**Set theory**
+
+
+## Question 2
+YearsInBusiness in the ER diagram above is a:  
+**Dervied attribute**: attribute is calculated using other attributes; here, YearsInBusiness = current date - openingDate\
+
+
+## Question 3
+Which of the following is true about cardinality constraints on the relationship between tables DOCTOR and [OUTPATIENT LOCATION]?  
+**A doctor is required to work at one outpatient location, but can work at no more than 1 outpatient location.**
+
+
+## Question 4
+Which columns would be necessary for identifying unique doctors in the doctor table of the database built from the relational schema excerpt above?  
+**You would have to use both LicenseNo and State**
+
+
+## Question 5
+In the ER diagram above, Doctor_ID and OL_ID are:  
+**Unique attributes or keys**
+
+
+## Question 6
+Which type of information is most likely to be stored in a relational database as opposed to another type of database?  
+**metadata (file name, file location, when the file was created, etc.) about pictures**
+
+
+## Question 7
+What can you infer about the data being collected based on the relational schema above?  
+**A doctor can work at many outpatient locations, and an outpatient location can have many doctors working at it**
+
+
+## Question 8
+Based on the diagram above, which attribute(s) can be used to identify unique books?  
+**BookName and WriterID** since WRITER has "identifying relationship" with BOOK
+
+
+## Question 9
+Which of the following statements are true about foreign keys? Check all that apply. (Note that you will need to select more than one correct response to answer this question correctly.)  
+
+- Refer to columns with unique values for every row in other relations/tables (primary keys)
+- Allow information in different tables to be linked to each other
+
+
+## Question 10
+Given the relational schema presented above, from how many tables would you need information in order to determine at which outpatient location(s) each doctor works?  
+**3** - all 3 tables
+
+
+## Question 11
+Which of the following is true about cardinality constraints on the relationship between Doctor and Outpatient Location depicted in this ER diagram?  
+**An outpatient location must have at least 1 doctor working at it, but can have many doctors working at it.**
+
+
+## Question 12
+Which of the following statements are true about the technical terms for the concepts represented by relational schemas? Check all that apply. (Note that you will need to select more than one correct response to answer the question correctly.)  
+
+- The technical term for items in a relational schema that become columns in a real database is “attributes.”
+- The technical term for items in a relational schema that become rows in a real database is “tuples.”
+
+
+## Question 13
+Based on the diagram above, which of the following is true?  
+**ShowDate and ShowVenue are needed together to provide a unique identifier for each show**
+
+
+## Question 14
+If this relational schema represented a database that was already implemented, what columns would you use to combine the information in the transactions table with the information in the departinfo table?  
+**"sku” to connect the transactions table to the skuinfo table, and then “deptID” to connect the skuinfo table to the deptinfo table**
+
+
+## Question 15
+For relational databases to work most efficiently, which of the following requirements of set theory should be followed? Check all that apply. (Note that you will need to select more than one correct response to answer this question correctly.)  
+
+- Single tables should represent the smallest logical parts of a data set
+- Each column in a table should represent a unique category of information
+- Each row in a table should represent a unique instance of the information in that table
+
+
+
+
+
+
